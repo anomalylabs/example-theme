@@ -24,7 +24,7 @@ class ExampleThemeServiceProvider extends ServiceProvider
             '/',
             function () {
 
-                return view('theme::test');
+                return view('theme::hello', ['content' => 'Hello!']);
             }
         );
     }
