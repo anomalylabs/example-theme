@@ -1,0 +1,36 @@
+{
+    "name": "anomaly/example-theme",
+    "type": "streams-addon",
+    "description": "An example public theme for the Streams platform.",
+    "keywords": [
+        "theme",
+        "streams",
+        "example",
+        "laravel"
+    ],
+    "homepage": "http://anomaly.is/",
+    "version": "1.0.0-alpha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AnomalyLabs, Inc.",
+            "email": "hello@anomaly.is",
+            "homepage": "http://anomaly.is/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "support@anomaly.is"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\ExampleTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}

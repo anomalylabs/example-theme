@@ -1,2 +1,3 @@
-# example-theme
-An example theme for the Streams platform.
+# Example Theme
+
+An example public theme for the Streams platform.
