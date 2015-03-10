@@ -16,10 +16,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;">
 
 <title>
-    {{ setting_get('streams::name', trans('distribution::name')) }}
-    -
-    {{ setting_get('streams::description', trans('distribution::description')) }}
-</title>
+    {{ trans(template.name) }}
+</title> 
 
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="{{ image_url('theme::img/favicon.png') }}">
